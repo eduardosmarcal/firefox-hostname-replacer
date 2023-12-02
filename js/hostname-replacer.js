@@ -1,4 +1,4 @@
-(function() {
+document.addEventListener('DOMContentLoaded', function() {
   browser.storage.sync.get("hostnameReplacerValue").then(result => {
     if ("hostnameReplacerValue" in result) {
       document.getElementById("hostname").value = result.hostnameReplacerValue;
@@ -29,4 +29,4 @@
       window.close();
     });
   });
-})();
+});

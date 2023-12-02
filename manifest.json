@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Hostname Replacer",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Replace the hostname with the one you defined — the remaining information in the URL will be retained.",
-  "author": "Eduardo S. Marcal",
+  "author": "Eduardo Sorókin Marçal",
   "icons": {
     "128": "images/icon128.png"
   },
